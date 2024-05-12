@@ -1,3 +1,10 @@
+import {
+  FaXTwitter,
+  FaLinkedin,
+  FaYoutube,
+  FaInstagram,
+} from "react-icons/fa6";
+
 const Hero = () => {
   return (
     <div className="hero min-h-screen bg-base-100 border-b-2">
@@ -18,7 +25,20 @@ const Hero = () => {
             insight. Join me on this journey of knowledge, inspiration and
             growth. Lets learn and grow together!
           </p>
-          <button className="btn btn-primary">Get Started</button>
+          <div className=" ">
+            <button className="btn text-2xl mx-4 rounded-full">
+              <FaXTwitter />
+            </button>
+            <button className="btn text-2xl rounded-full">
+              <FaLinkedin />
+            </button>
+            <button className="btn text-2xl mx-4 rounded-full">
+              <FaYoutube />
+            </button>
+            <button className="btn text-2xl rounded-full">
+              <FaInstagram />
+            </button>
+          </div>
         </div>
       </div>
     </div>
