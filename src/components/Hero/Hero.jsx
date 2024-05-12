@@ -7,7 +7,7 @@ import {
 
 const Hero = () => {
   return (
-    <div className="hero min-h-screen bg-base-100 border-b-2">
+    <div className="hero py-16 my-2 bg-base-100 border-b-2">
       <div className="hero-content flex-col lg:flex-row">
         <img
           src="https://images.unsplash.com/photo-1534030347209-467a5b0ad3e6?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
